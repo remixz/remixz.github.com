@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title> Zachary Bruggeman </title>
+
+	<meta name="description" content="I'm a righteous dude." />
+	<meta name="author" content="Zachary Bruggeman" />
+
+	<link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+<body>
+	<div class="container">
+		<!-- Name -->
+		<div class="name"> Zachary Bruggeman <i class="icon icon-info-circled"></i> </div>
+		<!-- Info -->
+		<div class="info">
+			<p> Hello. My name is Zachary Bruggeman. I'm an aspiring developer, primarily focusing in web development. I currently work as an engineering intern at <a href="https://diy.org">DIY</a>. I primarily program in Javascript, for both client and server-side. Send me an email if you want to talk.</p>
+		</div>
+		<!-- Social stuff -->
+		<div class="social-bar">
+			<a href="https://twitter.com/zachbruggeman" class="button twitter">
+				<i class="icon-twitter"></i>
+			</a>
+			<a href="https://github.com/remixz" class="button github">
+				<i class="icon-github"></i>
+			</a>
+			<a href="mailto:talktozachbruggeman@icloud.com" class="button mail">
+				<i class="icon-mail"></i>
+			</a>
+		</div>
+	</div>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"> </script>
+	<script src="js/jquery.transit.js"> </script>
+	<script>
+		$('.icon').on('click', function() {
+			if (!$('.info').hasClass('shown')) {
+				$('.info').transition({x: '1000px'}).addClass('shown');
+			}
+			return false;
+		});
+	</script>
+</body>
+</html>

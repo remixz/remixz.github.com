@@ -1,0 +1,111 @@
+/* Fonts, generated with fontello */
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot");
+  src: url("../font/fontello.eot?#iefix") format('embedded-opentype'), url("../font/fontello.woff") format('woff'), url("../font/fontello.ttf") format('truetype'), url("../font/fontello.svg#fontello") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+}
+
+.icon-mail:before { content: '\2709'; }
+.icon-github:before { content: '\f09b'; } 
+.icon-twitter:before { content: '\f309'; }
+.icon-info-circled:before { content: '\e705'; }
+
+/* Page styles */
+
+body {
+	background: url('../img/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+	-webkit-font-smoothing: antialiased
+}
+
+a {
+	text-decoration: none;
+	color: #00ACED;
+}
+a:hover {
+	color: #00A5E6;
+}
+
+.name {
+	font-family: 'Helvetica Neue', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 72px;
+	color: white;
+	position: absolute;
+	bottom: 25%;
+}
+
+.icon {
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	top: 20px;
+	right: -13px;
+	cursor: pointer;
+	color: white;
+}
+
+.info {
+	position: absolute;
+	left: -994px;
+	bottom: 40%;
+	max-width: 500px;
+	color: white;
+}
+
+.social-bar {
+	position: absolute;
+	bottom: 22%;
+}
+
+.button {
+	font-family: sans-serif;
+	font-size: 84px;
+	position: absolute;
+	padding: 20px 40px;
+}
+
+.twitter {
+	background: #00ACED;
+	left: 1px;
+	color: white;
+}
+.twitter:hover {
+	color: white;
+	background: #00A5E6;
+}
+.github {
+	background: #F3F3F3;
+	left: 170px;
+	color: black;
+}
+.github:hover {
+	color: black;
+	background: #E6E6E6;
+}
+.mail {
+	background: #FF3A2D;
+	left: 340px;
+	color: white;
+}
+.mail:hover {
+	color: white;
+	background: #F33326;
+}
