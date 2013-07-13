@@ -6,11 +6,21 @@ body {
     display: block;
     margin: 0 auto;
     width: 535px;
+    height: 304px;
     margin-top: 100px;
+    background: url(/img/sgnormal.png) no-repeat;
+    -webkit-transition: background-image 0.2s;
+    -moz-transition: background-image 0.2s;
+    -o-transition: background-image 0.2s;
+    transition: background-image 0.2s;
+}
+
+.sunglasses:hover {
+    background: url(/img/sgrainbow.png) no-repeat;
 }
 
 .name {
-    color: #FFFFFF;
+    color: #F3F3F3;
     font-family: 'Montserrat', sans-serif;
     font-size: 42px;
     font-weight: normal;
@@ -20,7 +30,7 @@ body {
 }
 
 .subtitle {
-    color: #FFFFFF;
+    color: #F3F3F3;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -32,7 +42,7 @@ body {
 .sep {
     width: 107px;
     height: 2px;
-    background-color: #FFFFFF;
+    background-color: #F3F3F3;
     margin: 0 auto;
 }
 
@@ -48,18 +58,24 @@ body {
 }
 
 .link a {
-    color: white;
+    color: #F3F3F3;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
+.link a:hover {
+    border-bottom: solid 1px;
+    border-bottom-width: 2px;
+    padding-bottom: 5px;
+}
+
 .link:after {
-    color: white;
+    color: #F3F3F3;
     content: ' | ';
 }
 
 .link:last-child:after { /* aww yeahh */
-    color: white;
+    color: #F3F3F3;
     content: '';
 }
