@@ -1,0 +1,65 @@
+body {
+    background-color: #222222;
+}
+
+.sunglasses { /* cool cool cool */
+    display: block;
+    margin: 0 auto;
+    width: 535px;
+    margin-top: 100px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sep {
+    width: 107px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.link {
+    display: inline-block;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.link:after {
+    color: white;
+    content: ' | ';
+}
+
+.link:last-child:after { /* aww yeahh */
+    color: white;
+    content: '';
+}
