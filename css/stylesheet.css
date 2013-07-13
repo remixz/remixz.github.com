@@ -76,6 +76,5 @@ body {
 }
 
 .link:last-child:after { /* aww yeahh */
-    color: #F3F3F3;
     content: '';
 }
