@@ -2,6 +2,16 @@ body {
     background-color: #222222;
 }
 
+::selection {
+    background-color: #F3F3F3;
+    color: #222222;
+}
+
+::-moz-selection {
+    background-color: #F3F3F3;
+    color: #222222;    
+}
+
 .sunglasses { /* cool cool cool */
     display: block;
     margin: 0 auto;
