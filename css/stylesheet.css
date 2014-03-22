@@ -1,36 +1,105 @@
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 2;
+  animation-iteration-count: 2;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
 body {
-    background-color: #222222;
+    background-color: #DADFE1;
 }
 
 ::selection {
-    background-color: #F3F3F3;
-    color: #222222;
+    background-color: #222222;
+    color: #DADFE1;
 }
 
 ::-moz-selection {
-    background-color: #F3F3F3;
-    color: #222222;    
+    background-color: #222222;
+    color: #DADFE1;    
 }
 
-.sunglasses { /* cool cool cool */
-    display: block;
+.first {
+    width: 940px;
     margin: 0 auto;
-    width: 535px;
-    height: 304px;
-    margin-top: 100px;
-    background: url(/img/sgnormal.png) no-repeat;
+    margin-top: 155px;
+    height: 1000px; /* prevents flash of unstyled */
+}
+
+.work {
+    min-height: 300px;
+    width: 100%;
+    background-color: #67809F;
+    padding-bottom: 100px;
+}
+
+.patch { 
+    display: block;
+    float: left;
+    width: 300px;
+    height: 336px;
+    margin-left: 65px;
+    background: url(/img/patch.png) no-repeat;
     -webkit-transition: background-image 0.2s;
     -moz-transition: background-image 0.2s;
     -o-transition: background-image 0.2s;
     transition: background-image 0.2s;
 }
 
-.sunglasses:hover {
-    background: url(/img/sgrainbow.png) no-repeat;
+.patch:hover {
+    background: url(/img/patchcolor.png) no-repeat;
+}
+
+.info {
+    padding-top: 100px;
 }
 
 .name {
-    color: #F3F3F3;
+    color: #222222;
     font-family: 'Montserrat', sans-serif;
     font-size: 42px;
     font-weight: normal;
@@ -40,7 +109,7 @@ body {
 }
 
 .subtitle {
-    color: #F3F3F3;
+    color: #222222;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -52,7 +121,7 @@ body {
 .sep {
     width: 107px;
     height: 2px;
-    background-color: #F3F3F3;
+    background-color: #222222;
     margin: 0 auto;
 }
 
@@ -68,7 +137,7 @@ body {
 }
 
 .link a {
-    color: #F3F3F3;
+    color: #222222;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -81,10 +150,92 @@ body {
 }
 
 .link:after {
-    color: #F3F3F3;
+    color: #222222;
     content: ' | ';
 }
 
 .link:last-child:after { /* aww yeahh */
     content: '';
+}
+
+.scroll {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.scroll a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.scroll i {
+    display: block;
+    text-align: center;
+}
+
+.pure-g {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.work-title {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+
+.pure-u-1-3 {
+    -webkit-transition: -webkit-transform 100ms;
+    -moz-transition: transform 100ms;
+    -o-transition: transform 100ms;
+    transition: transform 100ms;
+
+    margin-bottom: 20px;
+}
+
+.pure-u-1-3 a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.pure-u-1-3:hover {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+}
+
+.screenshot {
+    width: 250px;
+    border-radius: 6px;
+    border: solid #ffffff 9px;
+}
+
+.project-info {
+    background-color: white;
+    width: 246px;
+    padding: 11px;
+    padding-top: 17px;
+    padding-bottom: 1px;
+    border-radius: 6px;
+    margin-top: -14px;
+}
+
+.project-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.copyright {
+    margin-top: 50px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
