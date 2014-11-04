@@ -61,6 +61,7 @@ body {
                 width: 70px;
                 display: block;
                 margin: 0 auto;
+                transition: transform 0.1s ease-in-out;
             }
 
             &-title {
@@ -71,6 +72,12 @@ body {
                 font-family: Raleway, sans-serif;
                 .font-size(44px);
                 padding-top: 15px;
+            }
+
+            &:hover {
+                .link-image {
+                    transform: translateY(-5px);
+                }
             }
         }
     }
