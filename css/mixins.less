@@ -1,0 +1,6 @@
+@base-size: 16px;
+ 
+.font-size(@size) {
+    font-size: @size;
+    font-size: unit((@size / @base-size), rem);
+}
