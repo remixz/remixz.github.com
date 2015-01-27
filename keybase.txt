@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/zachbruggeman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zachbruggeman.me
+  * I am zachbruggeman (https://keybase.io/zachbruggeman) on keybase.
+  * I have a public key with fingerprint C0A3 9319 C779 6547 135C  C917 C985 2F5B 21CC 4407
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "c0a39319c7796547135cc917c9852f5b21cc4407",
+            "host": "keybase.io",
+            "key_id": "C9852F5B21CC4407",
+            "uid": "803132e3e7b17ee57be22ea3c5bffa00",
+            "username": "zachbruggeman"
+        },
+        "merkle_root": {
+            "ctime": 1422334332,
+            "hash": "d5bc2a53d2afe3c3c6d7844e158ee8cd77ea3512fb4fc7efe5e5e8d7b9d861638c2c511a8c7066e26e971d72c6224413f9e4f4b95efa8af463f401c619a170a7",
+            "seqno": 142083
+        },
+        "service": {
+            "hostname": "zachbruggeman.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422334449,
+    "expire_in": 157680000,
+    "prev": "ab8791419e58fe4c80767ebcd33f3dc06a8cc96815a50c0326b1cae60cb4150b",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFtkl1oHUUYhk+S1jQHoimCjdXYuqW5sPE4vzu7AaFtYtBSLwqRIqU9zMx+e7L5
+2T3ZPUkbw7koWIIaQqsEwWOwCIJeeFFNm0qJkUJt+msKVbHVKkWpUajaSpAixp0Q
+0YKzN7Mzz7zf+34zB+trMtmqMwee2PXo+fbaqnPzKtN5+sE/hi0VeUNW67ClewMI
+S2YWyj6wWq0eGFIygVwQrQ8jD3LdyfplpsUahDgJojClUE7kqFVuMbg57AdhAeJi
+HBgtSyNJXYpdLYRrcyYw5Vq7WGjX4cTnimCtGUMileyKktJdVa0lzXzgpatthu/g
+Wwlua1vmB5Y2HEQxJUBBKCwAuFBACEiqufJ9iZABE4iXI70gdZeKBwoF6JOhMd0H
+cU8v5OMoWkquS4HhMCOEUkYpSW3JpCs96XGlieTUI9IHqqm2PeEwBpg7AI72hEiL
+ckx8xXwtwAeefo4nlOs5Nrapo4nmGEtHC2TbQGxwBfYE0TYhjGHqu8B8plwOvnSk
+z2zqM4S1jV2JBZImcAL9YbRkDjm0bP7jwUCD8W16938Rc+lSi1WMo1Kko950t6tU
+KiatJnlpaqho+L2g8stKeRWEXnp9/71fnKJ3d4Uxt8WCfcUghnxgCC5sB6XDFILB
+VFIqR7iYYRe44wPTDhK2AKU9Sn3qaWSnXdCu7WAuOdKIElthLcFGWjHMkfo3K099
+ykIqmQSFUJYGYrDKL1U9vCJTlc3cs7LaPOBMtq7hn1edXahd7PjqtQk6duTZ6cdv
+3fptO/1i9pNvFoZrvh/4fOzDPRPN1bR9fhO6f2X+h5+7xyrRt3tWPbAwWti7ZXW8
+8eSd6dkrWzYfJXN1Ys0bN27D7OxjzXTq5bdHvtz/8YbLnT+++9bJmys+vXHk0qXu
+V49f1u/NHDj0V8cjvDOav9rf+GLzn2vnjpd/aarUnyUXGtsvrhvt2bDteqUhO3mu
++szO2mfuG9393VzlYM3m6zX9yU8z0z3H6icqX9Ns/tSmw09ea1jcPjW+7fbh38W1
+ZHzH0AnY6q9bHO97/rz3etNHTZ1vfvBU3WeS0qePPpf07793zJl8p71YO7LvlcpD
+vzaOnNh1c8fMxOShO2vfL9f9DQ==
+=wKR+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zachbruggeman
+
+==================================================================
