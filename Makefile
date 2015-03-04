@@ -1,9 +1,7 @@
 dev:
-	lessc css/stylesheet.less | autoprefixer > public/stylesheet.css
-	cat js/*.js > public/bundle.js
+	myth css/stylesheet.css > css/bundle.css
 
 build:
-	lessc -x css/stylesheet.less | autoprefixer > public/stylesheet.css
-	cat js/*.js | uglifyjs > public/bundle.js
+	myth -c css/stylesheet.css > css/bundle.css
 
 .PHONY: dev build
