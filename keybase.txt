@@ -4,69 +4,65 @@ https://keybase.io/zachbruggeman
 
 I hereby claim:
 
-  * I am an admin of https://zachbruggeman.me
+  * I am an admin of https://bruggie.com
   * I am zachbruggeman (https://keybase.io/zachbruggeman) on keybase.
   * I have a public key with fingerprint C0A3 9319 C779 6547 135C  C917 C985 2F5B 21CC 4407
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.3"
-        },
         "key": {
             "fingerprint": "c0a39319c7796547135cc917c9852f5b21cc4407",
             "host": "keybase.io",
-            "key_id": "C9852F5B21CC4407",
+            "key_id": "c9852f5b21cc4407",
+            "kid": "0101c104736c61bdcac748c68d2f8def182a8d98a47aa2f7504af2b1b9a18e3ea0100a",
             "uid": "803132e3e7b17ee57be22ea3c5bffa00",
             "username": "zachbruggeman"
         },
-        "merkle_root": {
-            "ctime": 1422334332,
-            "hash": "d5bc2a53d2afe3c3c6d7844e158ee8cd77ea3512fb4fc7efe5e5e8d7b9d861638c2c511a8c7066e26e971d72c6224413f9e4f4b95efa8af463f401c619a170a7",
-            "seqno": 142083
+        "revoke": {
+            "sig_ids": [
+                "96bf88e95c2b520fd5164adf130fb8221e59c6cf9df7a347e5b7673580f032e40f"
+            ]
         },
         "service": {
-            "hostname": "zachbruggeman.me",
+            "hostname": "bruggie.com",
             "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1422334449,
+    "ctime": 1425941020,
     "expire_in": 157680000,
-    "prev": "ab8791419e58fe4c80767ebcd33f3dc06a8cc96815a50c0326b1cae60cb4150b",
-    "seqno": 5,
+    "prev": "68d085b491577442f2b2f31d41c286cde6bf681e60a91a2162d05280ea0f0172",
+    "seqno": 6,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
-Comment: GPGTools - https://gpgtools.org
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
 
-owFtkl1oHUUYhk+S1jQHoimCjdXYuqW5sPE4vzu7AaFtYtBSLwqRIqU9zMx+e7L5
-2T3ZPUkbw7koWIIaQqsEwWOwCIJeeFFNm0qJkUJt+msKVbHVKkWpUajaSpAixp0Q
-0YKzN7Mzz7zf+34zB+trMtmqMwee2PXo+fbaqnPzKtN5+sE/hi0VeUNW67ClewMI
-S2YWyj6wWq0eGFIygVwQrQ8jD3LdyfplpsUahDgJojClUE7kqFVuMbg57AdhAeJi
-HBgtSyNJXYpdLYRrcyYw5Vq7WGjX4cTnimCtGUMileyKktJdVa0lzXzgpatthu/g
-Wwlua1vmB5Y2HEQxJUBBKCwAuFBACEiqufJ9iZABE4iXI70gdZeKBwoF6JOhMd0H
-cU8v5OMoWkquS4HhMCOEUkYpSW3JpCs96XGlieTUI9IHqqm2PeEwBpg7AI72hEiL
-ckx8xXwtwAeefo4nlOs5Nrapo4nmGEtHC2TbQGxwBfYE0TYhjGHqu8B8plwOvnSk
-z2zqM4S1jV2JBZImcAL9YbRkDjm0bP7jwUCD8W16938Rc+lSi1WMo1Kko950t6tU
-KiatJnlpaqho+L2g8stKeRWEXnp9/71fnKJ3d4Uxt8WCfcUghnxgCC5sB6XDFILB
-VFIqR7iYYRe44wPTDhK2AKU9Sn3qaWSnXdCu7WAuOdKIElthLcFGWjHMkfo3K099
-ykIqmQSFUJYGYrDKL1U9vCJTlc3cs7LaPOBMtq7hn1edXahd7PjqtQk6duTZ6cdv
-3fptO/1i9pNvFoZrvh/4fOzDPRPN1bR9fhO6f2X+h5+7xyrRt3tWPbAwWti7ZXW8
-8eSd6dkrWzYfJXN1Ys0bN27D7OxjzXTq5bdHvtz/8YbLnT+++9bJmys+vXHk0qXu
-V49f1u/NHDj0V8cjvDOav9rf+GLzn2vnjpd/aarUnyUXGtsvrhvt2bDteqUhO3mu
-+szO2mfuG9393VzlYM3m6zX9yU8z0z3H6icqX9Ns/tSmw09ea1jcPjW+7fbh38W1
-ZHzH0AnY6q9bHO97/rz3etNHTZ1vfvBU3WeS0qePPpf07793zJl8p71YO7LvlcpD
-vzaOnNh1c8fMxOShO2vfL9f9DQ==
-=wKR+
+yMJiAnicZZJLaFU5HMZvxzpiHUHHx0rUiSPMaG2TnJOTnLsoyvgYdBgYEK8zVWuS
+k9we6z3neu7Daq04isVHN6LD4FC0VbSgLgZFi1j1+qa1YhVB6krBRReCgtaF75yL
+rswmJP8vv/+XL7k+flSiqqJvZ239DwMLx1TcvtJVSCz/AKa1ABF6m0CyBTSp8qT9
+IK2ibOQHeZAEEnLLtZArKXUdYlNkESldRKXLCNZEYCSlbUMKqkFjmItPGIzgOVXj
+h2bPLBp8L+Z8rW8qFyCCSCJoU8uRDhKe5JLaTDrMw5p5SiOGOfNcxm3KOdaUQJtr
+LJBwOWLKUtwAIDe4QhnHoIUsbPapQFQpQoXCWHFLEqE1hzAW5lQU8Iwy6s1cNoqo
+kE6rDA9AazWIVDFsUnEMOT9tnOdAsh64jtCMKZdILAiG2iPIsbmnkQW1YBgjRVzp
+SO16mnLLpooI6lCLMKih8WJDDVYbtmlb9GUZHkf12UK5va9qZJgx3rJRmA9luN4U
+GvP5bC4Zm8pvysbKjUo0fGY0CD/wzDuZE0UV5fwwAElklDLvx1BkY+LaCGJYDVRz
+1o9Ugx8rCHUYNCPuo4oGaVKGjAjbNSVq29gEi7WFPBtJzBzpKXNzhyHlQO4ijpGD
+PUgwgyZ1DRHFIL7VhiAEScfY5GmDNLkFPF+IFGi9WlpVmaioSnw7+pv4pyWqxk74
+8v9qj435uDjYAppTp4b4zUWXZycKz8/OHX49teflEf12yr89qcxQ69q+p83tc34e
+O/FQ8vqpwaG/rs3YcS89vbj00JvdwT8LX69vP/5o2Y+leS1idur/96Dz0nD/ATKY
++O28SrSr06l5z+790dn93Y3ODpVeNXCrZtLH+ururjW7Lu99zOZfmMVG2n5f/quV
+HyhV3d+/e+6TJz81jkq/6iUT//zlYeHcQNv2Y+fWeLRnbd/0CZUdJxmYnLm/979H
+3WdWprYNd1T0Hqw7sWzRg9TU3ouH7+i/161c0CaOvhq3c8OKXN2Rw7dK8tqJg10v
+UO3daPBD/8ztld/vKWytqzv9ZqT7zsiN3iX7Npbe9X8ChRVGMQ==
+=6t+c
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
