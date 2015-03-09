@@ -5,8 +5,8 @@
 :root {
   --monospace-font-family: 'Source Code Pro';
   --monospace-font-size: 0.8125rem; /* 13px */
-  --website-width: 515px;
-  --website-height: 578px;
+  --website-width: 523px;
+  --website-height: 590px;
 }
 
 pre {
